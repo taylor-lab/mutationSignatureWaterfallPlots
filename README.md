@@ -1,7 +1,8 @@
-# mutationSignatureWaterfallPlots
+# mutationSignatureWaterfallPlots 
 utilities to make waterfall plots of mutation signature data
 
-Usage: Get ids of cases you want to look at signatures of. Run python script, then interactively run R script to your heart's content<br />
+##Usage: 
+Get ids of cases you want to look at signatures of. Run python script, then interactively run R script to your heart's content<br />
 More specificially:<br />
 run python format_plotting_info.py<br />
 The options are:<br />
