@@ -12,7 +12,8 @@ The options are:<br />
 --idsFile: ids for the cases whose signatures you want to plot.  Ids can be in csv, tsv or new line separated format<br />
 --primarySortSig: the signature whose value goes up in the waterfall and everything is first sorted on<br />
 --minMutThreshold: the minimum number of mutations below which we ignore signatures info<br />
---signatureOrdering: a file of signature names in the order you want dominant signatures to appear left to right on the plot. Refer to the files in this repo signatureOrdering.txt and signatureOrdering2_POLE_.txt for examples.  Note: the following signatures need to be referred to by their human readable name in this file: Signature.1 (Signature.AGE), Signature.2/Signature.13 (Signature.APOBEC), Signature.3 (Signature.HRD), Signature.4 (Signature.SMOKING), Signature.6/15/20/21 (Signature.MMR), Signature.7 (Signature.UV), Signature.10 (Signature.POLE), Signature.11 (Signature.TMZ) and Signature.14(Signature.POLE_plus_MMR)<br />
+--signatureOrdering: a file of signature names in the order you want dominant signatures to appear left to right on the plot. Refer to the files in this repo signatureOrdering.txt and signatureOrdering2_POLE_.txt for examples.
+<br />Note: the following signatures need to be referred to by their human readable name in this file: Signature.1 (Signature.AGE), Signature.2/Signature.13 (Signature.APOBEC), Signature.3 (Signature.HRD), Signature.4 (Signature.SMOKING), Signature.6/15/20/21 (Signature.MMR), Signature.7 (Signature.UV), Signature.10 (Signature.POLE), Signature.11 (Signature.TMZ) and Signature.14(Signature.POLE_plus_MMR)<br />
 
 This will generate a tsv file (writing file to /your/path/here.tsv)
 Open plot_signature_waterfall_plot.R, run the function plot_signature_waterfall() to generate a plot
