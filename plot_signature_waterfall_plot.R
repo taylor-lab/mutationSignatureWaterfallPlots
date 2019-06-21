@@ -8,8 +8,6 @@ library(egg)
 library(dplyr)
 library(data.table); setDTthreads(6)
 
-if(!exists("foo", mode="function")) source("/Users/friedman/Desktop/mnt/ifs/work/taylorlab/friedman/myUtils/landscape_plot_util.R")
-
 
 plot_signature_waterfall <- function(df, title, includeNMut_Mb_Info=TRUE){
   
